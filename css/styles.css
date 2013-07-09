@@ -20,8 +20,6 @@ body {
 	background-image: url("../images/well-balanz/bg.png");
 }
 
-
-
 ul{
 	list-style: none;
 	
@@ -88,6 +86,10 @@ a:hover{
 	border-top: solid 10px #C4D64E;
 }
 
+#last{
+	border-bottom: solid 10px #FFA831;
+}
+
 #row1{
 	margin: -115px 0 0 -5px;
 }
@@ -103,6 +105,15 @@ a:hover{
 
 #bamboo{
 	margin: -321px 0 0 -340px;
+}
+
+p{
+	font-family: 'Belleza', sans-serif;
+	font-size: 1.3em;
+}
+
+#btext{
+	margin: 5px 0;
 }
 
 /**************************************************************/
