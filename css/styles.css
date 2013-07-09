@@ -90,12 +90,17 @@ a:hover{
 	margin: -115px 0 0 -5px;
 }
 
+#spa{
+	margin: -330px 0 0 -71px;
+}
+
 #bms{
 	margin: -125px 0 0 25px;
+	z-index: 1000;
 }
 
 #bamboo{
-	margin: -325px 0 0 -330px;
+	margin: -321px 0 0 -340px;
 }
 
 /**************************************************************/
