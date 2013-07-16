@@ -57,14 +57,15 @@ a:hover{
 	/*border-bottom: dotted 2px #871715;*/
 }
 
-.column30{
-	float: right;
+.column20{
+	height: 534px;
 }
 
 #logo{
-	width: 100%;
-	height: 70%;
-	margin: -85px 0 0 6px;
+	width: 150%;
+	position: relative;
+	top: -80px;
+	left: 490px;
 }
 
 /*#circle{
@@ -84,9 +85,6 @@ a:hover{
 
 #first{
 	border-top: solid 10px #C4D64E;
-}
-
-#last{
 	border-bottom: solid 10px #FFA831;
 }
 
@@ -95,16 +93,22 @@ a:hover{
 }
 
 #spa{
-	margin: -330px 0 0 -71px;
+	top: -5px;
+	left: -647px;
+	position: relative;
 }
 
 #bms{
-	margin: -125px 0 0 25px;
+	top: 45px;
+	left: -380px;
 	z-index: 1000;
+	position: relative;
 }
 
 #bamboo{
-	margin: -321px 0 0 -340px;
+	top: 3px;
+	left: -340px;
+	position: relative;
 }
 
 p{
@@ -115,6 +119,7 @@ p{
 #btext{
 	margin: 5px 0;
 }
+
 
 /**************************************************************/
 /**************************************************************/
@@ -128,6 +133,35 @@ p{
 Additional page styling goes here.
 
 */
+
+/**
+ * Simple fade transition,
+ */
+.mfp-fade.mfp-bg {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out; 
+	-moz-transition: all 0.15s ease-out; 
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-bg.mfp-ready {
+	opacity: 0.8;
+}
+.mfp-fade.mfp-bg.mfp-removing {
+	opacity: 0;
+}
+
+.mfp-fade.mfp-wrap .mfp-content {
+	opacity: 0;
+	-webkit-transition: all 0.15s ease-out; 
+	-moz-transition: all 0.15s ease-out; 
+	transition: all 0.15s ease-out;
+}
+.mfp-fade.mfp-wrap.mfp-ready .mfp-content {
+	opacity: 1;
+}
+.mfp-fade.mfp-wrap.mfp-removing .mfp-content {
+	opacity: 0;
+}
 
 
 
