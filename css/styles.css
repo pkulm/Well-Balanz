@@ -105,21 +105,21 @@ a:active{
 }
 
 #spa{
-	top: -5px;
-	left: -647px;
+	top: 206px;
+	left: -581px;
 	position: relative;
 }
 
 #bms{
-	top: 45px;
-	left: -380px;
+	top: 55px;
+	left: -370px;
 	z-index: 1000;
 	position: relative;
 }
 
 #bamboo{
-	top: 3px;
-	left: -340px;
+	top: 108px;
+	left: -60px;
 	position: relative;
 }
 
