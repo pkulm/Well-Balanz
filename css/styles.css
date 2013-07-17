@@ -80,6 +80,13 @@ a:active{
 	left: 465px;
 }
 
+#logo-services{
+	width: 69.5%;
+	position: relative;
+	top: -70px;
+	left: 387px;
+}
+
 /*#circle{
 	background: #871715;
 	border-radius: 10em;
@@ -98,6 +105,12 @@ a:active{
 #first{
 	border-top: solid 10px #C4D64E;
 	border-bottom: solid 10px #FFA831;
+}
+
+#first-services{
+	border-top: solid 10px #C4D64E;
+	border-bottom: solid 10px #FFA831;
+	height: 250px;
 }
 
 #row1{
@@ -161,6 +174,12 @@ table{
 	right: 130px;
 }
 
+#services{
+	position: relative;
+	top: 45px;
+	right: 600px;
+}
+
 a#large-map:link{
 	color: #C4D64E;
 }
@@ -171,6 +190,27 @@ a#large-map:visited{
 
 a#large-map:hover{
 	color: #CCC;
+}
+
+.bar{
+	background-color: #D67646;
+	border-radius: 5px;
+	float: none;
+	display: block;
+}
+
+.sub-bar{
+	border-radius: 5px;
+	float: none;
+	display: block;
+}
+
+#services-list{
+	padding-left: 0;
+}
+
+#jeff{
+	margin-left: 0;
 }
 
 
