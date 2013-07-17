@@ -67,17 +67,17 @@ a:active{
 }
 
 #logo{
-	width: 150%;
+	width: 120%;
 	position: relative;
-	top: -80px;
-	left: 490px;
+	top: -70px;
+	left: 513px;
 }
 
 #logo-location{
-	width: 118%;
+	width: 95%;
 	position: relative;
-	top: -80px;
-	left: 442px;
+	top: -70px;
+	left: 465px;
 }
 
 /*#circle{
