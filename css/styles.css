@@ -197,6 +197,7 @@ a#large-map:hover{
 	border-radius: 5px;
 	float: none;
 	display: block;
+	margin-right: 30px;
 }
 
 .sub-bar{
@@ -205,8 +206,21 @@ a#large-map:hover{
 	display: block;
 }
 
+.sub-list li{
+	display: block;
+	float: none;
+	font-family: 'Belleza', sans-serif;
+	color: #7F9632;
+	font-size: 1.5em;
+}
+
+.sub-list{
+	margin: 20px 0;
+}
+
 #services-list{
 	padding-left: 0;
+	border-right: solid 2px #D67646;
 }
 
 #jeff{
