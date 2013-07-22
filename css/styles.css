@@ -202,6 +202,7 @@ a#large-map:hover{
 
 .sub-bar{
 	border-radius: 5px;
+	margin-bottom: 40px;
 	float: none;
 	display: block;
 }
@@ -220,11 +221,15 @@ a#large-map:hover{
 
 #services-list{
 	padding-left: 0;
-	border-right: solid 2px #D67646;
+	border-right: solid 2px #C4D64E;
 }
 
 #jeff{
 	margin-left: 0;
+}
+
+#services-bottom-bar{
+	border-bottom: solid 10px #FFA831;
 }
 
 
@@ -261,10 +266,111 @@ Custom Attributes if required for each device layout.
 
 
 @media (min-width: 768px) and (max-width: 979px) {
-	
+#row1 {
+	margin: -92px 0 0 -5px;
+	width: 768px;
+}
+
+#bms {
+width: 250%;
+top: 55px;
+left: -300px;
+z-index: 1000;
+position: relative;
+}
+
+#spa {
+width: 415%;
+top: 175px;
+left: -465px;
+position: relative;
+}
+
+#bamboo {
+width: 108%;
+top: 105px;
+left: -105px;
+position: relative;
+}
+
+#logo {
+width: 118%;
+width: 120%;
+position: relative;
+top: -50px;
+left: 417px;
+}
+
+.column20{
+height: 411px;
+}
+
+#nav{
+	margin: 30px 0;
+}
+
+a{
+	decoration: none;
+	font-family: 'Belleza', sans-serif;
+	font-size: 1.45em;
+	color: #871715;
+}
+
 }
 @media (min-width: 480px) and (max-width: 767px) {
-	
+#row1 {
+	margin: -92px 0 0 -5px;
+	width: 480px;
+	display: none;
+}
+
+#bms {
+width: 250%;
+top: 55px;
+left: -300px;
+z-index: 1000;
+position: relative;
+}
+
+#spa {
+width: 415%;
+top: 175px;
+left: -465px;
+position: relative;
+}
+
+#bamboo {
+width: 108%;
+top: 105px;
+left: -105px;
+position: relative;
+}
+
+#logo {
+width: 25%;
+position: relative;
+top: -543px;
+left: 417px;
+}
+
+.column20{
+height: 411px;
+}
+
+#nav{
+	margin: 30px 0;
+}
+
+a{
+	decoration: none;
+	font-family: 'Belleza', sans-serif;
+	font-size: 1.45em;
+	color: #871715;
+}
+
+#first {
+margin-top: 25px;
+}
 	
 	
 }

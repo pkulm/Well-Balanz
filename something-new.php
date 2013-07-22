@@ -34,7 +34,9 @@
 	
 <!-- BODY -->
 <body>
-
+<?php
+	echo "Hello World!";
+?>
 <!-- WRAPPER -->
 <div id="wrapper">
 
