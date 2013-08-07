@@ -299,11 +299,17 @@ position: relative;
 }
 
 #logo {
-width: 19%;
-position: relative;
-top: 52px;
-left: 46px;
-z-index: 1000;
+	width: 120%;
+	position: relative;
+	left: 410px;
+	top: -55px;
+}
+
+#logo-services{
+	width: 69.5%;
+	position: relative;
+	top: -54px;
+	left: 310px;
 }
 
 .column20{
@@ -319,6 +325,30 @@ a{
 	font-family: 'Belleza', sans-serif;
 	font-size: 1.45em;
 	color: #871715;
+}
+
+#logo-location{
+	width: 93%;
+	position: relative;
+	top: -54px;
+	left: 374px;
+}
+
+#services{
+	position: relative;
+	top: 65px;
+	right: 486px;
+	width: 235%;
+}
+
+table{
+	position: relative;
+	top: 50px;
+	left: -350px;
+}
+
+#frily {
+	display: none;
 }
 
 }
@@ -340,6 +370,27 @@ position: relative;
 top: -642px;
 left: 357px;
 /*display: none;*/
+}
+
+#bms {
+top: -1005px;
+left: 4px;
+z-index: 1000;
+position: relative;
+}
+
+#spa {
+width: 80%;
+top: -1375px;
+left: 0px;
+position: relative;
+}
+
+#bamboo {
+width: 108%;
+top: 105px;
+left: -105px;
+position: relative;
 }
 
 #nav{
