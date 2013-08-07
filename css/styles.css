@@ -67,10 +67,10 @@ a:active{
 }
 
 #logo{
-	width: 20%;
+	width: 120%;
 	position: relative;
-	top: 300pxpx;
-	left: 240px;
+	left: 513px;
+	top: -70px;
 }
 
 #logo-location{
@@ -233,6 +233,10 @@ a#large-map:hover{
 	border-bottom: solid 10px #FFA831;
 }
 
+#specials nth:child(1n+1){
+	background-color: red;
+}
+
 
 /**************************************************************/
 /**************************************************************/
@@ -295,11 +299,11 @@ position: relative;
 }
 
 #logo {
-width: 118%;
-width: 120%;
+width: 19%;
 position: relative;
-top: -50px;
-left: 417px;
+top: 52px;
+left: 46px;
+z-index: 1000;
 }
 
 .column20{
